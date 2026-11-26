@@ -1,0 +1,8 @@
+/decode
+*.mp4
+*.y
+*.key
+/prepared/
+
+*.packet
+!/examples/marked-sample.mp4

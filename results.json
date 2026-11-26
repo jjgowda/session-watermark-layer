@@ -1,0 +1,32 @@
+{
+  "clip": {
+    "width": 192,
+    "height": 160,
+    "seconds": 12,
+    "fps": 10
+  },
+  "originalAndMarkedMp4Bytes": 560577,
+  "detectionFromDecodedPicture": {
+    "base": null,
+    "session-a": "session-a",
+    "session-b": "session-b",
+    "session-a-reencoded": "session-a",
+    "wrong-placement": null,
+    "wrong-forensic": null
+  },
+  "benchmark": {
+    "segmentBytes": 46661,
+    "changedBytes": 8640,
+    "patchPlanBytes": 9645,
+    "preparedMediaBytes": 559938,
+    "loadMilliseconds": 1.0389160000000004,
+    "medianPatchMilliseconds": 0.009124999999997385,
+    "p95PatchMilliseconds": 0.01099999999999568,
+    "iterations": 10000
+  },
+  "authenticatedPacketChecks": [
+    "fresh nonce creates different packets for the same ID",
+    "rejects incorrect asset ID",
+    "rejects modified packet"
+  ]
+}
